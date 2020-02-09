@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Grids</title>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      /* grid-column-gap: 1em;
+      grid-row-gap: 1em; */
+      grid-gap: 1em;
+    }
+  
+    .wrapper > div {
+      background: #eee;
+      padding: 1em;
+    }
+
+    .wrapper > div:nth-child(odd) {
+      background: #ddd;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quasi tenetur deserunt qui reiciendis. Nam modi quasi excepturi debitis possimus doloremque aspernatur optio beatae, quis, error ad in, provident animi impedit illo qui veritatis odit at eveniet totam. Nam libero, labore non! Molestiae deserunt amet, possimus, quis, dolorum vitae odit non ut obcaecati dolorem quidem maxime accusamus cumque a reprehenderit? Impedit ad veritatis minima vel beatae ipsam rerum et autem magnam optio eius, suscipit tempore sed, ipsa ipsum, obcaecati laboriosam!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime error accusantium asperiores, dignissimos corrupti omnis commodi. Repudiandae necessitatibus quod natus itaque veniam labore reiciendis ratione, sint culpa placeat alias dolorum.
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quasi tenetur deserunt qui reiciendis. Nam modi quasi excepturi debitis possimus doloremque aspernatur optio beatae, quis, error ad in, provident animi impedit illo qui veritatis odit at eveniet totam. Nam libero, labore non! Molestiae deserunt amet, possimus, quis, dolorum vitae odit non ut obcaecati dolorem quidem maxime accusamus cumque a reprehenderit? Impedit ad veritatis minima vel beatae ipsam rerum et autem magnam optio eius, suscipit tempore sed, ipsa ipsum, obcaecati laboriosam!
+    </div>
+    <div>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime error accusantium asperiores, dignissimos corrupti omnis commodi. Repudiandae necessitatibus quod natus itaque veniam labore reiciendis ratione, sint culpa placeat alias dolorum.
+    </div>
+  </div>
+</body>
+</html>
